@@ -1,0 +1,8 @@
+### List all messages
+
+
+## Create a New message
+
+
+
+GET http://localhost:3000/messages/45644646

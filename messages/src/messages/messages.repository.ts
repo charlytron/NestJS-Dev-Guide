@@ -1,6 +1,8 @@
+import { Injectable } from '@nestjs/common'
 import { readFile, writeFile } from 'fs/promises'
 import { floor } from '../../../../../charlestompkins/Library/Caches/typescript/4.3/node_modules/@types/lodash';
 
+@Injectable()
 export class MessagesRepository {
   // async here bec we need to read a file from the HD
   async findOne (id: string) {
